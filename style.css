@@ -1,6 +1,26 @@
+/*body{
+    ;
+}
 p{
-    color:rgb(0,0,255);
+    color:#ff0000;
 }
 div{
-    background-color: yellow;
+    background-color:hsl(60, ) ;
+}*/
+.caja1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 87,51);
+}
+
+.caja2{
+    width: 150px;
+    height: 150px;
+    background-color: #808080;
+}
+
+.caja3{
+    width: 150px;
+    height: 150px;
+    background-color:hsl(60, 100%, 20%) ;
 }
