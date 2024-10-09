@@ -8,8 +8,35 @@
 </head>
 
 <style>
-    ::first-line{
-        color: yellow;
+    /*.foo, .bar{
+        color: green;
+    }
+    /*desendendia del abuelo .hijo (desciende del hiijo)*/
+    /*
+    .abuelo div{        
+        color: brown;
+    }*/
+    /*
+    .abuelo>div{
+        color: blueviolet;
+    }*/
+    /*heredan del hijo los nieto*/
+    /*
+    .hijo1~div{
+        color: coral;
+    }*/
+    /*
+    .foo{
+        color: red;
+    }
+    #bar{
+        color: green;
+    }*/
+    #router a{
+        background-color: brown;
+    }
+    #router #inner a{
+        background-color: blue;
     }
 </style>
 <body>
@@ -30,11 +57,29 @@
         <input name="fecha" type="date" disabled>
         <div></div>
         <input type="text" type="password" id="password" name="password">
-    </form>-->
+    </form>
     <p class="foo">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio odit repudiandae esse suscipit assumenda illum quos reprehenderit vitae exercitationem, velit adipisci sit iure et natus dignissimos quaerat? Blanditiis, corporis vitae. 
     </p>
     <div class="bar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati recusandae ullam qui! Quod dolorum perspiciatis ipsa libero non necessitatibus, autem eos nulla atque corporis asperiores nam ipsam voluptas voluptatum harum.</div>
-    <div class="baz">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta at deserunt assumenda distinctio cupiditate hic vitae culpa animi voluptatum odit reiciendis, rerum incidunt esse. Perspiciatis culpa ducimus repellat ab officiis?</div>
+    <div class="baz">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta at deserunt assumenda distinctio cupiditate hic vitae culpa animi voluptatum odit reiciendis, rerum incidunt esse. Perspiciatis culpa ducimus repellat ab officiis?</div>-->
+    <!--
+    <div class="abuelo">
+        <div class="hijo1">
+            <div class="nieto">Soy el nieto 1</div>
+            <div class="nieto">Soy el nieto 2</div>
+        </div>
+        <div class="hijo">Soy el hijo 2</div>
+    </div>
+    <div class="nieto">El  otro nieto</div>
+    <divc class="abuelo">
+        <div class="hijo1">Soy el hijo 1</div>
+        <div class="hijo2">Soy el hijo 2</div>
+
+        <p>Soy el hijo 4</p>
+        <div class="hijo3">Soy el hijo 3</div>
+    </div>-->
+    <p class="foo" id="bar">HOLA</p>
+    
 </body>
 </html>
